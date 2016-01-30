@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title> Buscaminas online </title>
+		<style type="text/css">
+			input{
+				font-size: 12pt;
+				font-family: Arial,sans-serif;
+				color: #666;
+				padding: 10px;
+				border: 2px solid #ccc;
+				width:250px;
+			}
+			select{
+				width: 270px;
+			}
+
+			th{
+				font-family:Arial;
+				font-size: 12pt;
+				color: #666;
+				padding: 10px;
+			}
+			#submit{
+				width: 270px;
+				cursor: pointer;
+			}
+			#submit:hover{
+				box-shadow: 0px 0px 50px;
+			}
+		</style>
+		<script type="text/javascript" src ="JS/formulari.js" ></script>
+	</head>
+	<body>
+		<header>
+			<nav>
+				<ul>
+					<li><a href="index.html" title = "Link a la noticia"> Noticia </a> </li> 
+					<li><a href="recepta.html" title = "Link a la recepta"> Recepta </a>  </li>
+					<li><a href="taules.html" title = "Link a la clasificacio de pilots"> Clasifiacio de pilots </a> </li>
+					<li><a href="formulari.html" title = "Link al formulari"> Formulari </a> </li>
+					<li><a href="escala.html" title = "Link a l'escala"> Escala </a> </li>
+				</ul>
+			</nav>
+		</header>
+		<!-- Soc un comentari -->
+		<h1> Buscaminas online</h1>
+		<h2> Formulari </h2>
+		<article>
+			<table>
+				<tbody>
+					<form name= "myForm" action="" method="post">
+						<tr> 
+							<th> User</th>
+							<td> <input type="text" name="Name" value = "Your Username"> </td> 
+						</tr>
+						<tr>
+							<th> Email </th> 
+							<td> <input type="email" name="Email" placeholder ="Your email"> </td> 
+						</tr>
+						<tr>
+							<th> Password </th> 
+						 	<td> <input type="password" name="password" placeholder="Your password"> </td>
+					    </tr>
+						<tr> 
+							<th> Country </th> 
+							<td>
+								<select name="Country">
+								<option value="-1" selected>[choose yours] </option>
+								<option value="1">Spain</option>
+								<option value="2">Andorra</option>
+								</select>
+							</td> 
+						</tr>
+						<tr>
+							<th></th>  
+							<td> <input type="button" id= "submit" value="Submit"> </td> 
+						</tr>
+					</form>
+				</tbody>
+			</table>
+		</article>
+	</body>
+</html>

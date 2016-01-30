@@ -1,0 +1,64 @@
+body,html {
+	height: 100%;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.capsa{
+	height: 300px;
+	width: 300px;
+	
+}
+
+#cami{
+
+	position: relative;
+	height: 100%;
+	width: 100%;
+	animation : vuelta 3s infinite linear;
+}
+#planet{
+	position: relative;
+	margin:0 auto 0 auto;
+	top:200px;
+	background-image: url("../planet.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	-webkit-transition: all 1s;
+    transition: all 1s;
+}
+
+#rocket{
+	position: relative;
+	top:40%;
+
+}
+
+#planet:hover{
+	top: 275px;
+	width: 150px;
+	height: 150px;
+}
+
+@-webkit-keyframes vuelta /* Safari and Chrome */
+	{
+	    from{
+	    	transform: rotate(0deg);
+	    }
+	    to{
+	    	transform: rotate(360deg);
+	    }
+	}
+
+@keyframes vuelta /* Safari and Chrome */
+	{
+	   from{
+	    	transform: rotate(0deg);
+	    }
+	    to{
+	    	transform: rotate(360deg);
+	    }
+	}

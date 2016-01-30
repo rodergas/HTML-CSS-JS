@@ -1,0 +1,33 @@
+.capsa{
+	width:  100px;
+	height: 100px;
+}
+#c1{
+	background: #FF0000;
+	position: relative;
+}
+#c2{
+	background: green;
+	position: relative;
+	left: 100px;
+	top: -100px;
+}
+#c3{
+	background: rgb(255,0,255);
+	position: relative;
+	top: -100px;
+}
+#c4{
+	background: rgb(155,0,123);
+	opacity: 0.4;
+	position: relative;
+	left: 100px;
+	top: -200px;
+}
+#c5{
+	background: rgb(200,200,0);
+	opacity: 0.9;
+	position: relative;
+	left: 50px;
+	top: -350px;
+}

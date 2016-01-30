@@ -1,0 +1,44 @@
+body,html {
+	height: 100%;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+td{
+	padding: 5px;
+}
+
+.bola{
+	width: 500px;
+	height: 500px;
+	background-color: #1a75ff;
+	border-radius: 100%;
+	position: relative;
+}
+
+#taula{
+	position: absolute;
+	left:115px;
+	top:75px;
+}
+
+.punt{
+	background-color: white;
+	border-radius: 100%;
+	width: 75px;
+	height: 75px;
+}
+.lletra{
+	background-color: #1a75ff;
+	width: 75px;
+	height: 75px;
+	font-family: Arial;
+	color:white;
+	font-size: 100px;
+}
+
+
+

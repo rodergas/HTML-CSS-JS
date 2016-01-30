@@ -1,0 +1,310 @@
+body,html {
+	height: 100%;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.capsa{
+	height: 100%;
+	position: absolute;
+}
+
+.bola{
+	width: 4%;
+	height: 4%;
+	background-color: #808080;
+	border-radius: 100%;
+	border: 1px solid black;
+	position: absolute;
+}
+
+.raig{
+	width: 80%;
+	height: 80%;
+	position: absolute;
+	left:10%;
+	top: 12%;
+	z-index: 10;
+	display: none;
+	
+}
+
+.dent{
+	background-color: black;
+	width:1%;
+	height:100%;
+	position: absolute;
+}
+
+#c1{
+	width: 40%;
+	left: 30%;
+	background: white;
+}
+
+#antena{
+	left:50%;
+	top: 12%;
+	z-index: 3;
+	animation: antenaAnim 2s infinite;
+}
+
+#palAntena{
+	border: 1px solid black;
+	background-color: #808080;
+	left: 51%;
+	width: 2%;
+	height: 7%;
+	top:15%;
+	z-index: 2;
+}
+
+#partAnteriorAntena{
+	border: 1px solid black;
+	background-color: #808080;
+	left: 49%;
+	width: 6%;
+	height: 3%;
+	top:21%;
+	z-index: 1;
+}
+
+#partSuperiorCap{
+	border: 1px solid black;
+	border-radius: 60% 60% 0 0;
+	background-color: #808080;
+	left: 37%;
+	width: 30%;
+	height: 20%;
+	top:21%;
+	z-index: 0;
+}
+
+#contenidorUlls{
+	border: 1px solid black;
+	border-radius: 15% 15% 15% 15%;
+	background-color: #808080;
+	left: 36%;
+	width: 32%;
+	height: 13%;
+	top:35%;
+	z-index: 1;
+}
+
+#contenidorInteriorUlls{
+	border: 1px solid black;
+	border-radius: 15% 15% 15% 15%;
+	background-color: black;
+	left: 9%;
+	width: 80%;
+	height: 75%;
+	top:12%;
+	z-index: 1;
+}
+
+#ullEsquerre{
+	border-radius: 100%;
+	background: white;
+	width: 30%;
+	height: 80%;
+	left: 15%;
+	top:8%;
+}
+
+#ullDret{
+	border-radius: 100%;
+	background: white;
+	width: 30%;
+	height: 80%;
+	left:55%;
+	top:8%;
+}
+
+#partInferiorCap{
+	border: 1px solid black;
+	border-radius: 0px 0px 300px 300px;
+	top:47%;
+	left:37%;
+	width: 30%;
+	height: 25%;
+}
+
+#boca{
+	border: 1px solid black;
+	border-radius: 15% 15% 15% 15%;
+	background: white;
+	top:15%;
+	left:15%;
+	width: 70%;
+	height: 45%;
+}
+
+#dent1{
+	left:21%;
+}
+
+#dent2{
+	left:41%;
+}
+#dent3{
+	left:61%;
+}
+#dent4{
+	left:80%;
+}
+
+#dent5{
+	width: 100%;
+	height: 1%;
+	top:50%;
+}
+
+#pupilaEsquerre{
+	width: 30%;
+	height: 30%;
+	top:33%;
+	left:5%;
+	background: green;
+	border: white;
+	animation: myMove 3s infinite;
+}
+
+#pupilaDret{
+	top:33%;
+	left:5%;
+	width: 30%;
+	height: 30%;
+	background: green;
+	border: white;
+	animation: myMove 3s infinite;
+}
+
+#raig1{
+	animation: raigos 0.5s infinite;
+}
+
+#raig2{
+	animation: raigos2 0.5s infinite;
+}
+
+#raig3{
+	animation: raigos3 0.5s infinite;
+}
+
+#raig4{
+	animation: raigos4 0.5s infinite;
+}
+
+#antena:hover > .raig{
+	display: inline-block;
+}
+/*
+#antena:hover + #raig1 + #raig2{
+	display: inline-block;
+}
+
+#antena:hover + #raig1 + #raig2 + #raig3{
+	display: inline-block;
+}
+
+#antena:hover + #raig1 + #raig2 + #raig3 + #raig4{
+	display: inline-block;
+}
+*/
+#antena:hover + #text{
+	display: inline-block;
+}
+
+#text{
+	width: 200px;
+	height: 200px;
+	display: none;
+	top:50%;
+	font-size: 20px;
+	z-index: 9;
+}
+
+@-webkit-keyframes antenaAnim /* Safari and Chrome */
+	{
+	    0% {box-shadow: 0 0 200px red;}
+	    50% {box-shadow: 0 0 0px red;}
+	    100% {box-shadow: 0 0 200px red;}
+	}
+
+@keyframes antenaAnim /* Safari and Chrome */
+	{
+	    0% {box-shadow: 0 0 200px red;}
+	    50% {box-shadow: 0 0 0px red;}
+	    100% {box-shadow: 0 0 200px red;}
+	}
+
+@keyframes myMove /* Safari and Chrome */
+	{
+	    0% {top:33%; left: 5%; background: green;}
+	    25%{top:60%; left: 35%; background: yellow;}
+	    50% {top:33%; left: 60%; background: red;}
+	    75% {top:5%; left: 35%; background: black;}
+	    100% {top:33%; left: 5%; background: green;}
+	}
+
+@-webkit-keyframes myMove /* Safari and Chrome */
+	{
+	    0% {top:33%; left: 5%; background: green;}
+	    25%{top:60%; left: 35%; background: yellow;}
+	    50% {top:33%; left: 60%; background: red;}
+	    75% {top:5%; left: 35%; background: black;}
+	    100% {top:33%; left: 5%; background: green;}
+	}
+
+@keyframes raigos /* Safari and Chrome */
+	{
+	    from{top:12%;}
+	    to{top:130%;}
+	}
+
+@-webkit-keyframes raigos /* Safari and Chrome */
+	{
+	    from{top:12%;}
+	    to{top:130%;}
+	}
+
+
+@keyframes raigos2 /* Safari and Chrome */
+	{
+	    from{left:50%;}
+	    to{left:175%;}
+	}
+
+@-webkit-keyframes raigos2 /* Safari and Chrome */
+	{
+	    from{left:50%;}
+	    to{left:175%;}
+	}
+
+
+@keyframes raigos3 /* Safari and Chrome */
+	{
+	    from{left:50%;}
+	    to{left:-125%;}
+	}
+
+@-webkit-keyframes raigos3 /* Safari and Chrome */
+	{
+	    from{left:50%;}
+	    to{left:-125%;}
+	}
+
+@keyframes raigos4 /* Safari and Chrome */
+	{
+	    from{top:12%;}
+	    to{top:-70%;}
+	}
+
+@-webkit-keyframes raigos4 /* Safari and Chrome */
+	{
+	    from{top:12%;}
+	    to{top:-70%;}
+	}

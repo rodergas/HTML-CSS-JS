@@ -1,0 +1,40 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.capsa{
+	width:  200px;
+	height: 100px;
+	position: relative;
+}
+
+div > #c1:hover + #c2 + #c3 {
+	display: none;
+}
+
+div > #c1:hover + #c2 + #c3 + #c4{
+	background: red;
+}
+
+
+#c1{
+	background: #C0C0C0;
+}
+
+#c2{
+	background: #AFAFAF;
+}
+#c3{
+
+	background: #878787;
+}
+
+#c4{
+	background: #666666;
+}
+#c5{
+	background: #000000;
+}
+
+

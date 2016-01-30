@@ -1,0 +1,155 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.capsa{
+	width:  100px;
+	height: 100px;
+	position: relative;
+	background: black;
+}
+
+.bola{
+	width: 20px;
+	height: 20px;
+	background: white;
+	border-radius: 30px;
+}
+
+.bola6{
+	width: 20px;
+	height: 20px;
+	background: white;
+	border-radius: 30px;
+	display: none;
+}
+
+#c3:hover > .bola6{
+	display: block;
+}
+
+#c4:hover > .bola6{
+	display: block;
+}
+
+#c5:hover > .bola6{
+	display: block;
+}
+
+#c3:hover > .bola{
+	display: none;
+}
+
+#c4:hover > .bola{
+	display: none;
+}
+
+#c5:hover > .bola{
+	display: none;
+}
+
+#c1{
+	top:100px;
+	z-index: 0;
+}
+
+#c2{
+	left: 100px;
+	z-index: 0;
+}
+#c3{
+	left: 200px;
+	bottom: 100px;
+	z-index: 0;
+}
+#c4{
+	left: 300px;
+	bottom: 250px;
+	z-index: 0;
+}
+#c5{
+	left: 300px;
+	bottom: 250px;
+	z-index: 0;
+}
+#c6{
+	bottom: 300px;
+	z-index: 0;
+}
+
+#b1{
+	position: relative;
+	z-index: 1;
+	margin: 0 auto 0 auto;
+	top:40px;
+}
+
+#b2{
+	position: absolute;
+	z-index: 1;
+	top:20px;
+	left: 60px;
+}
+
+#b3{
+	position: absolute;
+	z-index: 1;
+	top:20px;
+	left: 20px;
+}
+
+#b4{
+	position: absolute;
+	z-index: 1;
+	top:60px;
+	left: 60px;
+}
+
+#b5{
+	position: absolute;
+	z-index: 1;
+	top:60px;
+	left:20px;
+}
+
+#sis1{
+	position: absolute;
+	z-index: 1;
+	top:10px;
+	left:20px;
+}
+#sis2{
+	position: absolute;
+	z-index: 1;
+	top:40px;
+	left:20px;
+}
+#sis3{
+	position: absolute;
+	z-index: 1;
+	top:70px;
+	left:20px;
+}
+
+#sis4{
+	position: absolute;
+	z-index: 1;
+	top:10px;
+	left:60px;
+}
+#sis5{
+	position: absolute;
+	z-index: 1;
+	top:40px;
+	left:60px;
+}
+#sis6{
+	position: absolute;
+	z-index: 1;
+	top:70px;
+	left:60px;
+}
+
+
+

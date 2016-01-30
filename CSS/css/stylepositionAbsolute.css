@@ -1,0 +1,27 @@
+.capsa{
+	width:  100px;
+	height: 100px;
+	position: absolute;
+}
+#c1{
+	background: #FF0000;
+}
+#c2{
+	background: green;
+	left: 100px;
+}
+#c3{
+	background: rgb(255,0,255);
+	top: 100px;
+}
+#c4{
+	background: rgb(155,0,123);
+	left: 100px;
+	top: 100px;
+}
+#c5{
+	background: rgb(200,200,0);
+	opacity: 0.8;
+	left: 50px;
+	top: 50px;
+}

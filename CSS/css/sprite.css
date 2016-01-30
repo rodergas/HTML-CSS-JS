@@ -1,0 +1,82 @@
+body,html {
+	height: 100%;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+ul{list-style-type: none;}
+.menu{
+	height: 46px;
+	width: 165px;
+	background-image: url("../76510_m6_32.gif");
+}
+
+
+
+.text{
+	position: relative;
+	left: 50px;
+	font-family: Arial;
+	color: #666;
+}
+
+#rss{
+	position: relative;
+	top:1px;
+}
+
+#photo{
+	position: relative;
+	top:2px;
+}
+
+#link{
+	position: relative;
+	top:3px;
+}
+
+#resumeImg{
+	position: relative;
+	top: 15px;
+	left: 15px;
+	height: 15px;
+	width: 15px;
+	background: url("../76510_m6_31.gif") 0 0; 
+	z-index: 1;
+}
+
+#rssImg{
+	position: relative;
+	top: 15px;
+	left: 15px;
+	height: 15px;
+	width: 15px;
+	background: url("../76510_m6_31.gif") -15px 0; 
+	z-index: 1;
+}
+
+#photoImg{
+	position: relative;
+	top: 15px;
+	left: 15px;
+	height: 15px;
+	width: 15px;
+	background: url("../76510_m6_31.gif") -30px 0; 
+	z-index: 1;
+}
+
+#linkImg{
+	position: relative;
+	top: 15px;
+	left: 15px;
+	height: 15px;
+	width: 15px;
+	background: url("../76510_m6_31.gif") -45px 0; 
+	z-index: 1;
+}
+
+
+
