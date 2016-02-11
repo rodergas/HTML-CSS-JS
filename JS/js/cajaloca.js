@@ -5,7 +5,6 @@ var right;
 var bottom;
 function init(){
 	document.getElementById("btn1").addEventListener("click",mou);
-	
 	document.getElementById("btn2").addEventListener("click",frena);
 	document.getElementById("btn3").addEventListener("click",acelera);
 	document.getElementById("btn4").addEventListener("click",desacelera);

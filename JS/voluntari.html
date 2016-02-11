@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html ng-app>
+	<head>
+		<title>Voluntari?</title>
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+	</head>
+	<body>
+		<div ng-include="''"></div>
+		<button id="volunteer"> Voluntari</button>
+		<div id ="theChosenOne">
+		</div>
+		
+		<script type="text/javascript" >
+		$(function(){
+
+
+			function estudiant(nom, cognom){
+				this.nom = nom;
+				this.cognom = cognom;
+			}
+
+			var estudiant = new estudiant("Robert","Almar");
+
+			estudiant.colorPreferit = "Verd";
+/*
+			alert(estudiant.nom);
+			alert(estudiant.colorPreferit);
+*/
+			document.getElementById("volunteer").addEventListener("click", voluntari);
+			var estudiants = ["Robert Almar", "Erick Ricardo Aramayo", "Sergio Morales", "Rafael Lucena"];
+
+			function voluntari(){
+				console.log("READY");
+				var v = "<p>" + estudiants[Math.floor(Math.random() * estudiants.length)] + "</p>";
+				$("#theChosenOne").append(v);
+				$("#theChosenOne").fadeOut("slow").fadeIn("slow");
+			}
+		});
+		</script>
+	</body>
+</html>
