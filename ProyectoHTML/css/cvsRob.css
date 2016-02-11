@@ -1,0 +1,160 @@
+body,html {
+  height: 100%;
+  width: 100%;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video{
+  margin: 0;
+  padding: 0;
+}
+li,ul, nav{position: relative; z-index: 1;}
+
+#a1{
+	position: absolute;
+	top:15%;
+	left: 1%;
+	z-index: 0;
+}
+.PIN{
+	display: inline-block;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.idi{
+	font-family: 'Open Sans', sans-serif;
+	color: black;
+	display: inline-block;
+}
+.I{
+		position: relative;
+	font-family: 'Open Sans', sans-serif;
+	
+	top: 25px;
+	color: grey;
+}
+#PI{
+	position: absolute;
+	font-family: 'Open Sans', sans-serif;
+	color :black;
+	font-weight: bold;
+}
+
+#EI{
+	position: absolute;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+	color :black;
+}
+
+#FI{
+		position: absolute;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+	color :black;
+}
+
+#ID{
+		position: absolute;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+	color :black;
+}
+
+#FI1{
+	position: relative;
+	font-family: 'Open Sans', sans-serif;
+	top :22px;
+	color :black;
+}
+
+#FI2{
+	position: relative;
+	font-family: 'Open Sans', sans-serif;
+	top :22px;
+	color :black;
+}
+
+#EI1{
+	position: relative;
+	font-family: 'Open Sans', sans-serif;
+	top :22px;
+	color :black;
+}
+
+#EI2{
+	position: relative;
+	font-family: 'Open Sans', sans-serif;
+	color :black;
+	top: 22px;
+}
+
+#tit{
+	color:grey;
+	font-weight: bold;
+}
+
+#tit2{
+	color:grey;
+	font-weight: bold;
+}
+#FIContent{
+	position: relative;
+	font-family: 'Open Sans', sans-serif;
+	left: 42%;
+	color: grey;
+}
+
+#FIContent2{
+	position: relative;
+	font-family: 'Open Sans', sans-serif;
+	left: 42%;
+	color: grey;
+}
+
+#EIContent{
+	position: relative;
+	font-family: 'Open Sans', sans-serif;
+	left: 38%;
+	color: grey;
+}
+
+#EIContent2{
+	position: relative;
+	font-family: 'Open Sans', sans-serif;
+	left: 38%;
+	color: grey;
+}
+
+#PIContent{
+	position: relative;
+	width: 80%;
+	height: 15%;
+	left: 38%;
+	color:grey;
+}
+
+#ILocalitzacio{
+	position: relative;
+	width: 5px;
+	height: 5px;
+	background: url('../loc.png');
+	background-size: 100% 100%;
+}
+#footer {
+  position: absolute;
+  width: 100%;
+  height: 60px;
+  bottom: 0px;
+}

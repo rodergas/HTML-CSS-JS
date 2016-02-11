@@ -1,0 +1,116 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+}
+
+body, html {
+	height: 100%;
+	width: 100%;
+	position: relative;
+}
+
+header {
+	width: 100%;
+	/*background: cyan;*/
+}
+
+ul {list-style-type: none; z-index: 1}
+
+li {
+	z-index: 1;
+	width: 25%;
+	float: left;
+}
+
+#espacioheader {
+	width: 100%;
+	height: 40px;
+	background-color: black;
+}
+
+.navelement {
+	z-index: 1;
+	width: 100%;
+	height: 60px;
+	background: linear-gradient(#1f1f14, #0f0f0a);
+	color: white;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: sans-serif;
+	vertical-align: middle;
+	font-weight: bold;
+	line-height: 60px;
+}
+
+
+nav li a:hover div {
+	background: linear-gradient(#000066, #000033);
+}
+
+nav>ul>li>ul{display: none;}
+nav>ul>li>ul>li div{background: linear-gradient(#000066, #000033);}
+
+nav>ul>li:hover>ul {
+  display:block;
+}
+
+.uli{
+	width: 100%;
+	float: left;
+}
+
+.icono {
+	position: relative;
+	float: left;
+	width: 12%;
+	height: 30px;
+	top: 12px;
+	left: 22%;
+	/*background: red;*/
+}
+
+
+#i0 {background: url("../noticon.png") center center no-repeat; background-size: 100% 100%;}
+#i1 {background: url("../cvicon.png") center center no-repeat; background-size: 100% 100%;}
+#i2 {background: url("../androicon.png") center center no-repeat; background-size: 100% 100%;}
+#i3 {background: url("../imgcon.png") center center no-repeat; background-size: 100% 100%;}
+#i4 {background: url("../vader.jpg") center center no-repeat; background-size: 100% 100%; border-radius: 100%;}
+#i5 {background: url("../grievous.jpg") center center no-repeat; background-size: 100% 100%; border-radius: 100%;}
+
+
+a {text-decoration: none;}
+
+footer {
+	background: linear-gradient(#1f1f14, #0f0f0a);
+}
+
+#pet {
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	background: url("../pet.gif") center center no-repeat; background-size: 100% 100%;
+	z-index: 8;
+	display: none;
+}
+
+#sony {
+	position: absolute;
+	height: 20px;
+	width: 80px;
+	top: 10px;
+	right: 15px;
+	background: url("../sony.png") center center no-repeat;
+	background-size: 100% 100%;
+}

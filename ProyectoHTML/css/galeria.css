@@ -1,0 +1,237 @@
+body,html {
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(black, grey);
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video{
+  margin: 0;
+  padding: 0;
+}
+
+li,ul, nav{position: relative; z-index: 1;}
+#cont{
+  position: relative;
+  height: 70%;
+  width: 100%;
+}
+
+.container {
+  width: 210px;
+  height: 140px;
+  left: 41%;
+  top: 90%;
+  position: absolute;
+  -webkit-perspective: 8000px;
+  -webkit-moz-perspective: 8000px;
+  perspective: 8000px;
+}
+
+#carousel {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+#carousel div {
+  display: block;
+  position: absolute;
+  width: 60%;
+  height: 60%;
+  left: 10px;
+  top: 10px;
+  border: 2px solid black;
+  -webkit-transition: all 1s ease;
+  -webkit-moz-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+.boto{
+  position:absolute;
+  height: 50px;
+  width: 50px;
+}
+
+.botoG{
+  position:absolute;
+  height: 80px;
+  width: 80px;
+}
+
+#imagengrande{
+  position: absolute;
+  left: 25%;
+  width: 50%;
+  height: 50%;
+  top: 35%;
+  border: 2px solid black;
+  border-radius: 4px 4px 4px 4px;
+}
+
+#izqG{
+  background: url('https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-ios7-arrow-back-128.png')  no-repeat center;
+  background-size: 100% 100%;
+  top:55%;
+  left:15%;
+}
+
+#derG{
+  background: url('https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-ios7-arrow-back-128.png')  no-repeat center;
+  background-size: 100% 100%;
+  top:55%;
+  right:15%;
+  -webkit-transform: rotate(180deg); /* Chrome, Safari, Opera */
+   -webkit-moz-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+#der{
+  background: url('https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-ios7-arrow-back-128.png')  no-repeat center;
+background-size: 100% 100%;
+-webkit-transform: rotate(180deg); /* Chrome, Safari, Opera */
+transform: rotate(180deg);
+top: 95%;
+right: 3%;
+}
+
+#izq{
+top: 95%;
+left:3%;
+background: url('https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-ios7-arrow-back-128.png')  no-repeat center;
+background-size: 100% 100%;
+}
+
+#upc{
+  width: 100px;
+  height: 100px;
+  background: url("upc.html")  no-repeat center;
+  background-size: 100% 100%;
+}
+
+#izq:hover{
+  -webkit-animation: hacer infinite 1s;
+  animation: hacer infinite 1s;
+}
+
+#der:hover{
+  -webkit-animation: hacer2 infinite 1s;
+  animation: hacer2 infinite 1s;
+}
+
+#izqG:hover{
+  -webkit-animation: hacer infinite 1s;
+  animation: hacer infinite 1s;
+}
+
+#derG:hover{
+  -webkit-animation: hacer2 infinite 1s;
+  animation: hacer2 infinite 1s;
+}
+
+#a1 { -webkit-transform: rotateY(0deg) translateZ(325px); transform: rotateY(0deg) translateZ(325px);}
+#a2 { -webkit-transform: rotateY(24deg) translateZ(325px); transform: rotateY(24deg) translateZ(325px);}
+#a3 { -webkit-transform: rotateY(48deg) translateZ(325px); transform: rotateY(48deg) translateZ(325px);}
+#a4 { -webkit-transform: rotateY(72deg) translateZ(325px); transform: rotateY(72deg) translateZ(325px);}
+#a5 { -webkit-transform: rotateY(96deg) translateZ(325px); transform: rotateY(96deg) translateZ(325px); }
+#a6 { -webkit-transform: rotateY(120deg) translateZ(325px); transform: rotateY(120deg) translateZ(325px);}
+#a7 { -webkit-transform: rotateY(144deg) translateZ(325px); transform: rotateY(144deg) translateZ(325px);}
+#a8 { -webkit-transform: rotateY(168deg) translateZ(325px); transform: rotateY(168deg) translateZ(325px);}
+#a9 { -webkit-transform: rotateY(192deg) translateZ(325px); transform: rotateY(192deg) translateZ(325px);}
+#a10 { -webkit-transform: rotateY(216deg) translateZ(325px); transform: rotateY(216deg) translateZ(325px);}
+#a11 { -webkit-transform: rotateY(240deg) translateZ(325px); transform: rotateY(240deg) translateZ(325px);}
+#a12 { -webkit-transform: rotateY(264deg) translateZ(325px); transform: rotateY(264deg) translateZ(325px);}
+#a13 { -webkit-transform: rotateY(288deg) translateZ(325px); transform: rotateY(288deg) translateZ(325px);}
+#a14 { -webkit-transform: rotateY(312deg) translateZ(325px); transform: rotateY(312deg) translateZ(325px);}
+#a15 { -webkit-transform: rotateY(336deg) translateZ(325px); transform: rotateY(336deg) translateZ(325px);}
+
+#a1 { background: url("../gallery/0.jpg") center center no-repeat; background-size: 100% 100%;}
+#a2 { background: url("../gallery/1.jpg") center center no-repeat; background-size: 100% 100%;}
+#a3 { background: url("../gallery/2.jpg") center center no-repeat; background-size: 100% 100%;}
+#a4 { background: url("../gallery/3.jpg") center center no-repeat; background-size: 100% 100%;}
+#a5 { background: url("../gallery/4.jpg") center center no-repeat; background-size: 100% 100%;}
+#a6 { background: url("../gallery/5.jpg") center center no-repeat; background-size: 100% 100%;}
+#a7 { background: url("../gallery/6.jpg") center center no-repeat; background-size: 100% 100%;}
+#a8 { background: url("../gallery/7.jpg") center center no-repeat; background-size: 100% 100%;}
+#a9 { background: url("../gallery/8.jpg") center center no-repeat; background-size: 100% 100%;}
+#a10 { background: url("../gallery/9.jpg") center center no-repeat; background-size: 100% 100%;}
+#a11 { background: url("../gallery/10.jpg") center center no-repeat; background-size: 100% 100%;}
+#a12 { background: url("../gallery/11.jpg") center center no-repeat; background-size: 100% 100%;}
+#a13 { background: url("../gallery/12.jpg") center center no-repeat; background-size: 100% 100%;}
+#a14 { background: url("../gallery/13.jpg") center center no-repeat; background-size: 100% 100%;}
+#a15 { background: url("../gallery/14.jpg") center center no-repeat; background-size: 100% 100%;}
+
+
+@-webkit-keyframes hacer /* Safari and Chrome */
+  {
+      0%, 20%, 50%, 80%, 100% {
+
+        transform: translateX(0);
+
+      }
+  40% {
+    transform: translateX(-20px);
+  }
+  60% {
+    transform: translateX(-5px);
+  }
+  }
+
+@keyframes hacer /* Safari and Chrome */
+  {
+      0%, 20%, 50%, 80%, 100% {
+        transform: translateX(0);
+      }
+  40% {
+    transform: translateX(-20px);
+  }
+  60% {
+    transform: translateX(-5px);
+  }
+  }
+
+  @-webkit-keyframes hacer2 /* Safari and Chrome */
+  {
+      0%, 20%, 50%, 80%, 100% {
+        transform: translateX(0) rotate(180deg);
+      }
+  40% {
+    transform: translateX(20px) rotate(180deg);
+  }
+  60% {
+    transform: translateX(5px) rotate(180deg);
+  }
+  }
+
+@keyframes hacer2 /* Safari and Chrome */
+  {
+      0%, 20%, 50%, 80%, 100% {
+        transform: translateX(0) rotate(180deg);
+      }
+  40% {
+    transform: translateX(20px) rotate(180deg);
+  }
+  60% {
+    transform: translateX(5px) rotate(180deg);
+  }
+  }
+
+
+#footer {
+  position: absolute;
+  width: 100%;
+  height: 60px;
+  bottom: 0px;
+}
